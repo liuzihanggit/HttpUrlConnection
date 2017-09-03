@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                     case XmlPullParser.END_TAG:{
                         if ("app".equals(nodeName)){
                             //responseText.setText(id);
-                            Log.d("MainActivity","id is " +id );
+                            Log.d("MainActivity","id isis " +id );
                             Log.d("MainActivity","name is "+name);
                             Log.d("MainActivity","version is"+version);
                         }
